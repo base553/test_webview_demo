@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <br />
+    <input type="file" id="fileBtn">
+    <br />
+    <br />
+
+    <button id="btn">upload file</button>
+    <input type="file" id="filePatcher" />
+    <br />
+    <br />
+
+    <button id="btn2">go to</button>
+    <br />
+
+    <a href="https://www.baidu.com" target="_blank">go to out url</a>
+
+    <script>
+        document.querySelector('#btn').onclick = function () {
+            window.chrome.webview.postMessage(JSON.stringify({ msg: "checkFile" }));
+        }
+
+
+        document.querySelector('#btn2').onclick = function () {
+            window.location.href = 'https://www.yiche.com'
+        }
+
+        document.getElementById("filePatcher").addEventListener("change", function (e) {
+            //alert("pick file success");
+            console.log(e);
+            debugger;
+        })
+
+    </script>
+</body>
+
+</html>
