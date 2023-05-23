@@ -1,0 +1,10 @@
+﻿################################################################################
+# 此 .gitignore 文件已由 Microsoft(R) Visual Studio 自动创建。
+################################################################################
+
+/txtsprider/WpfApp1/obj
+/txtsprider/WpfApp1/bin/Debug/net6.0-windows/WpfApp1.exe.WebView2/EBWebView
+/txtsprider/.vs/txtsprider/FileContentIndex/e8e860b6-950d-4ef6-9dae-2d3e45b293dd.vsidx
+/txtsprider/.vs/txtsprider/FileContentIndex/a4de0c97-58a6-478c-827b-940874142564.vsidx
+/txtsprider/.vs/txtsprider/FileContentIndex/86d42687-bc1a-4eec-acc1-81cb20944c08.vsidx
+/txtsprider/.vs/txtsprider/FileContentIndex/47553c70-1b61-4b21-a3c9-3725ad520732.vsidx
