@@ -97,9 +97,6 @@ namespace WpfApp1
             {
                 try
                 {
-
-                    Thread.Sleep(1000);
-
                     string file = string.IsNullOrEmpty(checkPath) ? dialog.FileName : checkPath;
                     var nextHelper = web.CoreWebView2.GetDevToolsProtocolHelper();
                     DOM dom = nextHelper.DOM;
